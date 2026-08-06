@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+        background-image: linear-gradient( to right,#F2DBD5,#F4EEED);
+}
+
+main{
+    background-color: white;
+    width: 700px;
+    box-shadow:5px 5px 15px #c9c1bfa1;
+    padding: 15px;
+    border-radius:5px; 
+    margin: auto;
+    /*background-image: url("imagens/fundo.jpg");
+      background-size: cover;  Ocupa toda a tela 
+      background-repeat: no-repeat;  Não repete a imagem 
+      background-position: center;Centraliza a imagem 
+      background-attachment: fixed;  Fundo fixo ao rolar a página */
+}
+
+h1{
+    text-align: center;
+    color: #A5A68F;
+    text-shadow:1px 1px 0px #676859b2 ;
+}
+h2{
+
+    color: #3683e9;
+    text-shadow:1px 1px 0px #1e4880cc ;
+}
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

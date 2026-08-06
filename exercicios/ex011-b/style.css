@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+body{
+
+    background-color:rgb(70, 67, 67);
+}
+
+.videos {
+    display:grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,auto);
+    gap:15px;
+}
+
+.videoSeparado{
+    display:grid;
+    justify-content:center;
+     
+
+}
+
+.voltar{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&display=swap');
+
+/*
+tipos de format():
+opentype
+truetype
+truetype-aat
+embedded-opentype
+svg
+*/
+
+@font-face {
+    font-family:"animada" ;
+    src: url('fonts/Candy\ Fruits.otf') format(opentype);
+    font-weight:normal;
+    font-style: normal;
+    
+}
+@font-face {
+    font-family:"feliz" ;
+    src: url('fonts/Cheese\ Milky.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.corpo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight:border;
+    text-align: justify;
+    margin:2em;
+}
+
+.titulo01{
+    font-family:"eater",serif;
+    font-size:3em;
+    font-weight: normal; 
+    
+}
+
+.subtitulo01{
+    font-family:"foldit", Times, serif;
+    font-size:2em;
+    font-weight:normal;
+
+}
+
+.titulo02{
+    font-family:"animada",Arial, Helvetica, sans-serif ;
+}
+
+.paragrafo02{
+    font-family:"feliz",'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    font-size: 1em;
+    
+text-align: center;
+}
+
+li{
+    display:inline-flex;
+    height: 20px;
+    width: 145px;
+    background-color: lightgray;
+    margin: auto;
+    padding: 15px;;
+    text-align: center;
+    border: 1px solid red ;
+    border-radius: 20px;
+    box-shadow: 3px 2px 8px rgba(80, 8, 8, 0.274);
+    position: relative;
+    
+}
+.especial{
+    background-color: cadetblue;
+    height: 20px;
+    width: 190px;
+    border: 1px solid green ;
+    
+}
+
+.especial::before{
+    content:'=>';
+    
+}
+.especial::after{
+    content:'<=';
+}
+
+
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+a:visited{
+    color: darkred;
+}
+
+a:hover{
+    color: rgb(247, 10, 10);
+    text-decoration:underline;
+}
+a:active{
+    color: chartreuse;
+}
+
+::selection{
+    background-color:rgba(161, 159, 159, 0.473);
+    color:whitesmoke;
+}
+
+h1::first-letter{
+    font-size: 1.9em;
+    color: rgb(0, 0, 0);
+
+}
+
+
+/*
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-element
+> = clildren
+
+Pseudo-elemento  
+::before → Insere conteúdo antes do elemento. 
+           
+::after → Insere conteúdo depois do elemento.  
+
+::first-letter → Estiliza apenas a primeira letra.
+
+::first-line → Estiliza apenas a primeira linha. 
+  
+::selection → Altera a aparência do texto selecionado pelo usuário.  
+
+Outros pseudo-classes importantes
+
+:hover → quando o mouse está sobre o elemento.
+:active → enquanto o elemento está sendo clicado.
+:focus → quando o elemento recebe foco (por clique ou teclado).
+:visited → para links que já foram visitados.-
+
+
+
+Resumo: Box-level × Inline-level
+
+Os elementos Box-level (Block) ocupam toda a largura disponível da página e sempre iniciam em uma nova linha. Eles permitem definir propriedades como width (largura) e height (altura), sendo muito utilizados para estruturar o layout de uma página. Alguns exemplos de elementos box-level são: <div>, <p>, <h1> e <section>.
+
+Já os elementos Inline-level (Inline) ocupam apenas o espaço necessário para o seu conteúdo e permanecem na mesma linha que outros elementos. Em geral, eles não aceitam a definição de width e height. São utilizados principalmente para destacar ou formatar partes de um texto. Alguns exemplos são: <a>, <span>, <strong> e <em>.
+
+Existe ainda o Inline-block, que combina características dos dois tipos. Ele permanece na mesma linha como um elemento inline, mas permite definir largura (width) e altura (height), como um elemento block.
+
+Macete para decorar:
+
+Block = Bloco: imagine uma caixa grande que ocupa toda a largura da linha.
+Inline = Em linha: imagine uma palavra dentro de um texto, que fica ao lado das outras sem quebrar a linha.
+Inline-block = O melhor dos dois: fica na mesma linha, mas aceita largura e altura definidas.
+
+*/

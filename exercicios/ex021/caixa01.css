@@ -1,0 +1,73 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    background-color: whitesmoke;
+}
+
+h1{
+    background-color: lightgray;
+    height: 100px;
+    width: 300px;
+    text-align:justify;
+    display: flex;
+    align-items: center; /*Vertical*/
+    margin:20px auto 30px auto;
+
+    outline: 5px dashed lightblue;
+
+    /*
+    outline-width:5px ;
+    outline-style: dashed;
+    outline-color: lightgray;
+    
+    border-width: 5px;
+    border-style: solid;
+    border-color: brown;*/
+
+    border: 10px solid brown;
+    border-radius: 15px;
+    
+    /*padding-top:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:10px;*/
+
+    padding:10px;
+
+    /*margin-top:20px;
+    margin-left:20px ;
+    margin-bottom:20px;
+    margin-right:20px;
+
+
+Valor	Descrição	Exemplo
+none	Sem borda 
+hidden	Oculta a borda 
+solid	Linha contínua.	
+dotted	Linha pontilhada.	
+dashed	Linha tracejada.	
+double	Linha dupla.
+groove	Efeito de borda "entalhada" em 3D.	
+ridge	Efeito de borda "elevada" em 3D.	
+inset	Dá a impressão de que o elemento está afundado.	
+outset	Dá a impressão de que o elemento está elevado.	
+    
+    */
+
+    /* margin: 20px 20px 20px 20px;*/
+
+}
+
+a{
+    background-color: lightslategray;
+    border-width:2px;
+    border-style:dashed;
+    border-radius:8px ;
+    border-color: blueviolet;
+    color: white;
+    padding:5px;
+    margin:2px auto 2px auto;
+    outline: 2px solid blueviolet;
+}

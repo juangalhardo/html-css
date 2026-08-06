@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*
+No HTML se escreve id, e para identificar no seletor do CSS é o #;
+No HTML se escreve class, e para identificar no seletor é o ponto (.);
+
+*/
+
+body{
+    background-color: #7DCFB6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+}
+
+#cabeçalho{
+    color:#FFFAFF;
+    background-color:#101D42;
+    text-align: center;
+    font-size:3.5em;
+    
+}
+
+h1{
+    color: #3E92CC;
+    background-color: white;
+    font-size: 2.5em;
+}
+
+h2{
+    color: rgb(132, 11, 245);
+    background-color:#FFFAFF;
+    text-align: center;
+    font-size: 2em;
+}
+
+p{
+    color: #232ED1;
+    background-color:#FFFAFF;
+    font-size: 1.5em;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.destaque{
+    color: red;
+}
+
+.fundo{
+    background-color: rgba(158, 70, 70, 0.568);
+}

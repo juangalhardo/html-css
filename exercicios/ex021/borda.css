@@ -1,0 +1,12 @@
+h1{
+    background-color: lightgray;
+    font-family: 'foldit', Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 20px solid black;
+
+    /*border-image: url('borda.png') 32 repeat;*/
+
+    border-image-source: url('borda.png');
+    border-image-slice: 32;
+    border-image-repeat: repeat;
+}

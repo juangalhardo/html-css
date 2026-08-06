@@ -1,0 +1,46 @@
+@charset "UTF-8";
+div{
+    background-color: lightgray;
+    width: 200px;
+    height: 200px ;
+    display:inline-block;
+    text-align: center;
+    border:1px solid black ;
+    position: relative;
+   
+}
+
+p{
+    background-color: lightgray;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px ;
+    text-align: center;
+    margin: auto;
+ 
+}
+
+div > p{
+    display:none;
+}
+
+div:hover > p {
+    display: block;
+    background-color: brown;
+
+}
+div:hover{
+    background-color: gray;
+}
+
+
+/*
+Outros pseudo-classes importantes
+
+:hover → quando o mouse está sobre o elemento.
+:active → enquanto o elemento está sendo clicado.
+:focus → quando o elemento recebe foco (por clique ou teclado).
+:visited → para links que já foram visitados.-*/
