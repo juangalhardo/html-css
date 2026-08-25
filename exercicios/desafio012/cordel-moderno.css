@@ -1,9 +1,24 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+:root{
+  --fonte01:Verdana, Geneva, Tahoma, sans-serif;
+  --fonte02: "Passion One", sans-serif;
+  --fonte03:"Dancing Script", cursive;
+  --cor-preta:black;
+  --cor-branca: white;
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+
 }
 
 html,
@@ -13,45 +28,56 @@ body {
 }
 
 header {
-  background-color: black;
-  color: white;
+  background-color: var(--cor-preta);
+  color: var(--cor-branca);
   text-align: center;
 }
 header > h1 {
+  font-family: var(--fonte02);
   padding-top: 50px;
   font-variant: small-caps;
+  font-size: 4em;
+  
+  
+}
+header>p{
+  padding-bottom: 50px;
 }
 
 section{
     padding-top:10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 30px;
+    padding-left: 15px;
+    font-family: var(--fonte03);
+    font-size: 3.5vw;
+
+
 }
-
-
 
 section>p{
 
   padding: 15px;
+  
+
 }
 
 .normal {
-    background-color:white;
-    color: black;
+    background-color: var(--cor-branca);
+    color: var(--cor-preta);
 }
 .imagem {
     background-color: rgb(43, 42, 42);
-    color: white;
+    color:var(--cor-branca);
   }
 
 .imagem>p{
   background-color: rgba(0, 0, 0, 0.37);
-  width: 400px;
+  display: inline-block;
 }
 
 a {
-    color: white;
+    color: var(--cor-branca);
     text-decoration:none;
     font-weight: bolder;
 }
@@ -61,8 +87,8 @@ a:hover{
 }
 
 footer {
-  background-color: black;
-  color: white;
+  background-color: var(--cor-preta);
+  color:var(--cor-branca);
   text-align: center;
   padding: 10px;
 }
