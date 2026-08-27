@@ -48,7 +48,7 @@ section{
     padding-top:10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 15px;
+    padding-left: 30px;
     font-family: var(--fonte03);
     font-size: 3.5vw;
 
@@ -57,7 +57,7 @@ section{
 
 section>p{
 
-  padding: 15px;
+  padding-bottom:2em;
   
 
 }
@@ -69,11 +69,24 @@ section>p{
 .imagem {
     background-color: rgb(43, 42, 42);
     color:var(--cor-branca);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.377);
+    background-attachment: fixed;
   }
 
 .imagem>p{
   background-color: rgba(0, 0, 0, 0.37);
   display: inline-block;
+  padding: 5px;
+  text-shadow: 1px 1px 0px black;
+}
+
+#img01{
+  background-image: url(imagens/background001.jpg);
+  background-size:cover;
+}
+#img02{
+  background-image: url(imagens/background002.jpg);
+  background-size: cover;
 }
 
 a {
