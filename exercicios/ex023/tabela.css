@@ -1,0 +1,31 @@
+@charset "UTF-8";   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:10px 20px ;
+}
+
+td{
+    border: 2px solid black;
+    padding: 5px;
+   
+    
+}
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+
+#dado{
+    background-color: yellow;
+}
+
+#linha{
+    background-color: gray;
+}
