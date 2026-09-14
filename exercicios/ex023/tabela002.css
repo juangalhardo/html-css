@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    border: 2px solid black;
+    margin-left:15px ;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    
+}
+
+tbody{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+    
+    
+}
+
+td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    
+}
+
+.habitantes{
+  text-align: right;
+}
+
+.extensão{
+    text-align: right;
+}
